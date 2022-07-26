@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 
 url = 'https://www.youtube.com/'
-driver = webdriver.Chrome(executable_path='/home/shiva/code/PyCharm/demo/automation/chromedriver')
+driver = webdriver.Chrome(executable_path='./chromedriver')
 
 try:
     driver.get(url=url)
